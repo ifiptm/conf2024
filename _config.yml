@@ -113,8 +113,8 @@ conference:
 
   # Information boxes
   info_bars:
-    - title: Update (15 Feb 2024)
-      color: warning
+    - title: Update (16 Feb 2024)
+      color: info
       main_only: true
       text: A preliminary call for papers will be published soon.
       # text: |
