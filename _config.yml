@@ -1,0 +1,185 @@
+title: IFIPTM 2024
+preposition: at
+description: >-
+  15th Annual Conference of the IFIP WG 11.11 Trust Management in Nottingham, UK
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://conf2024.ifiptm.org" # the base hostname & protocol for your site, e.g. https://example.com
+
+theme: jekyll-theme-conference
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+
+# Additional exclude from processing
+exclude:
+  - vendor
+  - .github/
+  - README.md
+  - LICENSE.md
+  - REDISTRIBUTED.md
+  - purgecss.config.js
+
+# Collections and their defaults
+collections:
+  talks:
+    output: true
+    permalink: /:collection/:title/
+  speakers:
+    output: false
+    permalink: /:collection/:title/
+  rooms:
+    output: true
+    permalink: /:collection/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+  - scope:
+      path: ""
+      type: speakers
+    values:
+      layout: speaker
+  - scope:
+      path: ""
+      type: rooms
+    values:
+      layout: room
+
+
+conference:
+
+  # Language
+  lang: en
+
+  # Show theme errors:
+  show_errors: false
+
+  # Navigation bar
+  navigation:
+    logo:
+      name: IFIP WG 11.11 Trust Management
+      img: 'logo_ifiptm_square.png'  # inside /assets/images/
+      url: 'https://www.ifiptm.org/'
+    links:
+      - name: Call for Papers
+        relative_url: /cfp/
+      - name: Committees
+        relative_url: /committees/
+      - name: Programme
+        relative_url: /programme/
+        disabled: true
+      # - name: Talks
+      #  relative_url: /talks/
+      # - name: Speakers
+      #  relative_url: /speakers/
+      - name: Location
+        relative_url: /location/
+        disabled: true
+
+  # Link Preview for Sharing
+  link_preview:
+    # also adapt "preposition" property at top for more meaningful descriptions
+    disable: true
+    #img:
+    #  twitter: 'twitter_preview.png'      # inside /assets/images/
+    #  open_graph: 'facebook_preview.png'  # inside /assets/images/
+
+  # Main landing page
+  main:
+    # logo:
+       # img: 'logo_ifiptm_text.png'  # inside /assets/images/
+    links:
+      - name: Paper submission
+        absolute_url: https://openreview.net/group?id=IFIP.org/WG_11-11_Trust_Management/2024/Conference
+        disabled: true
+      - name: Programme
+        disabled: true
+        relative_url: /programme/
+      - name: How to get there
+        disabled: true
+        relative_url: /location/
+      - name: Registration
+        disabled: true
+        absolute_url: '#'
+
+  # Information boxes
+  info_bars:
+    - title: Update (15 Feb 2024)
+      color: warning
+      main_only: true
+      text: A preliminary call for papers will be published soon.
+      # text: |
+      #  - **Submission deadline:** 01 Jun 2024
+      #  - **Notification of acceptance:** 20 Jul 2024
+      #  - **Camera-ready deadline:** TBD
+      #  - **Conference:** 18--20 Sep 2024
+    # - text: This is just some random content for demonstration purposes.
+    #   color: warning
+    #   pages_only: true
+
+  # Live indications
+  live:
+    date: 18.09.2024
+    timezone: GMT+0
+    stop:       240  # in minutes
+    streaming:
+      enable: true
+      pause:     60  # in minutes
+      prepend:    5  # in minutes
+      extend:     5  # in minutes
+    demo:
+      enable: true
+      duration: 300  # in seconds
+      pause:     10  # in seconds
+
+  talks:
+    # Talk categories
+    main_categories:
+      - name: Category A
+        color: info
+      - name: Category B
+        color: success
+      - name: Category C
+        color: warning
+
+    # Hide icons on talk overview page
+    hide_icons: false
+
+  speakers:
+    # Show first and last name
+    show_firstname: true
+
+  location:
+    # Disable links to locations
+    hide: false
+    # URL of location / room overview page
+    url: '/location'
+    # Main page title shown on location/room navigation bar
+    navbar_title: 'Location'
+    # Show map on location main page.  Set `map: false` if you don't want to
+    # display it.
+    map:
+      # Initial map center point
+      home_coord: 52.9088,-1.2473
+      # Alternative map providers can be found on https://leaflet-extras.github.io/leaflet-providers/preview/
+      # The following do match the Bootstrap design not too badly:
+      #   - Thunderforest.Neighbourhood
+      #   - Esri.WorldTopoMap
+      map_provider: "OpenStreetMap.Mapnik"
+      default_zoom: 17
+
+
+  program:
+    # URL of program page
+    url: '/program'
+
+    # Time steps in program table
+    time_steps: 15 # in minutes
+
+    # Show intermediary time steps (next to full hours)
+    show_alltimes: true
