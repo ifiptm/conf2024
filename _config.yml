@@ -2,6 +2,7 @@ title: IFIPTM 2024
 preposition: at
 description: >-
   15th Annual Conference of the IFIP WG 11.11 Trust Management in Nottingham, UK
+keywords: ['IFIPTM', 'Trust Management', 'Conference', 'Nottingham', 'UK', '2024']
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://conf2024.ifiptm.org" # the base hostname & protocol for your site, e.g. https://example.com
 
@@ -63,9 +64,12 @@ conference:
   navigation:
     logo:
       name: IFIP WG 11.11 Trust Management
-      img: 'logo_ifiptm_square.png'  # inside /assets/images/
+      img: 'logo_ifiptm_text.png'  # inside /assets/images/
+      img_small: 'logo_ifiptm_square.png'
       url: 'https://www.ifiptm.org/'
     links:
+      - name: Home
+        relative_url: /
       - name: Call for Papers
         relative_url: /cfp/
       - name: Committees
@@ -96,7 +100,7 @@ conference:
     links:
       - name: Paper submission
         absolute_url: https://openreview.net/group?id=IFIP.org/WG_11-11_Trust_Management/2024/Conference
-        disabled: true
+        disabled: false
       - name: Programme
         disabled: true
         relative_url: /programme/
