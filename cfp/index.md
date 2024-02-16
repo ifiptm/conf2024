@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Call for papers
+<h1 class="display-5 mb-3">Call for papers</h1>
 
 The mission of the IFIPTM 2024 conference is to share research solutions to problems relating to trust and trust management in digital infrastructures. As society become increasingly digitalized, interactions are transferred to the digital domain, which introduces problems of establishing, maintaining and exploiting trust among entities and services in the digital domain, including related security and privacy issues. One indicator of the increasing importance of trust in the digital domain is the increase in legislation and regulation, such as the GDPR regulation and NIS 2 directive in Europe, but similar regulations are emerging around the World. The conference seeks to present solutions to all issues relating to trust and trust management in a digitalized society, and to identify new challenges and directions for future research.
 

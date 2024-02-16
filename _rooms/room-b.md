@@ -1,6 +1,6 @@
 ---
 name: Room B
-hide: false
+hide: true
 ---
 
 This is an online room.

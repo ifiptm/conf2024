@@ -74,16 +74,16 @@ conference:
         relative_url: /cfp/
       - name: Committees
         relative_url: /committees/
-      - name: Programme
-        relative_url: /programme/
-        disabled: true
+      # - name: Programme
+      #  relative_url: /programme/
+      #  disabled: true
       # - name: Talks
       #  relative_url: /talks/
       # - name: Speakers
       #  relative_url: /speakers/
-      - name: Location
+      - name: Venue
         relative_url: /location/
-        disabled: true
+        disabled: false
 
   # Link Preview for Sharing
   link_preview:
@@ -100,16 +100,16 @@ conference:
     links:
       - name: Paper submission
         absolute_url: https://openreview.net/group?id=IFIP.org/WG_11-11_Trust_Management/2024/Conference
-        disabled: false
+        disabled: true
       - name: Programme
         disabled: true
         relative_url: /programme/
-      - name: How to get there
-        disabled: true
-        relative_url: /location/
       - name: Registration
         disabled: true
         absolute_url: '#'
+      - name: How to get there
+        disabled: false
+        relative_url: /location/
 
   # Information boxes
   info_bars:
@@ -175,7 +175,7 @@ conference:
       #   - Thunderforest.Neighbourhood
       #   - Esri.WorldTopoMap
       map_provider: "OpenStreetMap.Mapnik"
-      default_zoom: 17
+      default_zoom: 16
 
 
   program:
