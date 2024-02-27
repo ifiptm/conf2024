@@ -100,7 +100,7 @@ conference:
     links:
       - name: Paper submission
         absolute_url: https://openreview.net/group?id=IFIP.org/WG_11-11_Trust_Management/2024/Conference
-        disabled: true
+        disabled: false
       - name: Programme
         disabled: true
         relative_url: /programme/
@@ -113,10 +113,10 @@ conference:
 
   # Information boxes
   info_bars:
-    - title: Update (16 Feb 2024)
+    - title: Update (27 Feb 2024)
       color: info
       main_only: true
-      text: A preliminary call for papers will be published soon.
+      text: The call for papers has been updated.
       # text: |
       #  - **Submission deadline:** 01 Jun 2024
       #  - **Notification of acceptance:** 20 Jul 2024
