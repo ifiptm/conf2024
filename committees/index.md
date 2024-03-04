@@ -9,6 +9,7 @@ The following is committee structure of the IFIPTM 2024.
 ### General chairs
 
 - Tim Muller, University of Nottingham, UK
+- Vincenzo Piuri, University of Milan, Italy
 
 ### Programme chairs
 
