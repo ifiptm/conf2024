@@ -113,10 +113,10 @@ conference:
 
   # Information boxes
   info_bars:
-    - title: Update (27 Feb 2024)
+    - title: Update (13 March 2024)
       color: info
       main_only: true
-      text: The call for papers has been updated.
+      text: The programme committee has been updated.
       # text: |
       #  - **Submission deadline:** 01 Jun 2024
       #  - **Notification of acceptance:** 20 Jul 2024
