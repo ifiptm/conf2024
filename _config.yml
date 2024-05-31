@@ -113,12 +113,12 @@ conference:
 
   # Information boxes
   info_bars:
-    - title: Update (13 March 2024)
+    - title: Update (1 June 2024)
       color: info
       main_only: true
-      text: The programme committee has been updated.
+      text: The submission deadline has been extended to June 10, 2024.
       # text: |
-      #  - **Submission deadline:** 01 Jun 2024
+      #  - **Submission deadline:** 10 Jun 2024
       #  - **Notification of acceptance:** 20 Jul 2024
       #  - **Camera-ready deadline:** TBD
       #  - **Conference:** 18--20 Sep 2024
