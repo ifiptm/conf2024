@@ -10,7 +10,7 @@ Submitted full papers must not exceed 16 pages in length, including bibliography
 
 ## Important dates
 
-- **Submission deadline:** 10 Jun 2024
+- **Submission deadline:** 30 Jun 2024
 - **Notification of acceptance:** 20 Jul 2024
 - **Camera-ready deadline:** TBD
 - **Conference:** 18--20 Sep 2024
