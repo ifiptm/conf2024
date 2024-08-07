@@ -113,22 +113,22 @@ conference:
 
   # Information boxes
   info_bars:
-    - title: Update (19 June 2024)
+    - title: Update (07 August 2024)
       color: info
       main_only: true
-      text: The submission deadline has been extended to June 30, 2024.
+      text: The submission deadline has been extended to September 10, 2024.
       # text: |
-      #  - **Submission deadline:** 30 Jun 2024
-      #  - **Notification of acceptance:** 20 Jul 2024
+      #  - **Submission deadline:** 10 Sep 2024
+      #  - **Notification of acceptance:** 10 Oct 2024
       #  - **Camera-ready deadline:** TBD
-      #  - **Conference:** 18--20 Sep 2024
+      #  - **Conference:** 09--10 Dec 2024
     # - text: This is just some random content for demonstration purposes.
     #   color: warning
     #   pages_only: true
 
   # Live indications
   live:
-    date: 18.09.2024
+    date: 09.12.2024
     timezone: GMT+0
     stop:       240  # in minutes
     streaming:
