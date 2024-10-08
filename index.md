@@ -2,7 +2,7 @@
 layout: home
 ---
 
-** The conference has been cancelled. There will be no IFIPTM annual conference happening in 2024. **
+**The conference has been cancelled. There will be no IFIPTM annual conference happening in 2024.**
 
 The 15th IFIP International Conference on Trust Management (IFIPTM 2024) will be held in Nottingham, United Kingdom on December 09 and 10, 2024. The conference website is located at [https://conf2024.ifiptm.org](https://conf2024.ifiptm.org) for general information about the conference and venue.
 
