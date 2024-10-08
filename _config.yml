@@ -113,10 +113,10 @@ conference:
 
   # Information boxes
   info_bars:
-    - title: Update (07 August 2024)
+    - title: Update (08 October 2024)
       color: info
       main_only: true
-      text: The submission deadline has been extended to September 10, 2024.
+      text: The conference for this year has been cancelled.
       # text: |
       #  - **Submission deadline:** 10 Sep 2024
       #  - **Notification of acceptance:** 10 Oct 2024
